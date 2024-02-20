@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--the outline box turns to grey when the edit text is out of focus-->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#C1FCF8F8" />
+            <stroke android:width="2dp" android:color="#B2B2B4" />
+            <corners android:radius="20dp" /> <!-- Set the radius to create a round shape -->
+        </shape>
+    </item>
+
+</selector>
